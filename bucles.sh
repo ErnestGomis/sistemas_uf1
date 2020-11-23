@@ -2,7 +2,7 @@
 
 echo "(Ejercicio de bucles)"
 
-for VARIABLE in condiciones2.sh; do
+for VARIABLE in `ls *.sh`; do
 	if [ -e $VARIABLE ]; then
 		echo "Existe: $VARIABLE"
 	else
